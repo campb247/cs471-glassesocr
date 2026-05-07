@@ -1,7 +1,6 @@
 # filename: evaluate.py
 # course: cs 471
 # authors: kaden campbell, lundon dotson, kevin davis
-# date: may 7 2026
 
 """
 evaluate trained character classifier on held out chars74k test split

@@ -1,7 +1,6 @@
 // filename: permissionview.swift
 // course: cs 471
 // authors: kaden campbell, lundon dotson, kevin davis
-// date: may 7 2026
 
 import SwiftUI
 
