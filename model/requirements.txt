@@ -1,0 +1,6 @@
+torch
+torchvision
+coremltools
+matplotlib
+seaborn
+numpy

@@ -1,0 +1,12 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "Chars74K Fnt — 62-class character classifier",
+  "MLModelCreatorDefinedKey" : {
+    "com.github.apple.coremltools.conversion_date" : "2026-05-06",
+    "com.github.apple.coremltools.source" : "torch==2.8.0",
+    "com.github.apple.coremltools.version" : "9.0",
+    "com.github.apple.coremltools.source_dialect" : "TorchScript"
+  },
+  "MLModelAuthorKey" : "CS 471 — glassesocr",
+  "MLModelLicenseKey" : "--"
+}

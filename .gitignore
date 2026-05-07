@@ -1,0 +1,94 @@
+# ───────────────────────────────────────────────────────────────────────
+# macOS
+# ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# ───────────────────────────────────────────────────────────────────────
+# Xcode / Swift
+# ───────────────────────────────────────────────────────────────────────
+# User-specific Xcode state
+**/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build outputs
+build/
+DerivedData/
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved.lock
+
+# CocoaPods (not used here, but defensive)
+Pods/
+*.xcworkspace/xcuserdata/
+
+# Carthage
+Carthage/Build/
+
+# ───────────────────────────────────────────────────────────────────────
+# Python (model training)
+# ───────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest / coverage / type checkers
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ───────────────────────────────────────────────────────────────────────
+# Project-specific
+# ───────────────────────────────────────────────────────────────────────
+
+# Chars74K dataset, re-downloadable via `model/download_dataset.py`.
+# 294MB; do not commit.
+model/data/
+
+# All generated training artifacts (plots, checkpoints, intermediate
+# .mlpackage). The iOS app uses glassesocr/CharacterCNN.mlpackage for its
+# build, which is committed separately. Everything in model/output/ is
+# regeneratable by running train.py + the analysis scripts.
+model/output/
+
+# Documents (project description, slideshows, written report). Keep
+# only source code and essential build artifacts in the repo.
+*.pdf
+*.pptx
+*.docx
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local environment files
+.env
+.env.local
+
+# Claude
+.claude/
